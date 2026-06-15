@@ -67,6 +67,7 @@ const CreateTask = () => {
                     <option value="Marketing">Marketing</option>
                     <option value="PR">PR</option>
                 </select>
+                 
                 {/* 4. Added the new Input Field for Assignee */}
                 <h3 className="text-2xl">Who is working on it?</h3>
                 <input type="text" placeholder="Assignee Name (e.g. Rahul, Design Lead)" value={assignee} onChange={(event)=>{setAssignee(event.target.value)}} className="w-full p-3 bg-white rounded-xl focus:outline-none focus:ring-2 focus:ring-white appearance-none" />
