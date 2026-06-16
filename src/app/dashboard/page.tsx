@@ -38,7 +38,25 @@ export default function Home(){
     return (
       <>
         <Navbar />
-        
+        {/* PRIORITY COLOR LEGEND */}
+        <div className="mb-8 flex gap-6 justify-center items-center bg-white border-2 border-black rounded-xl p-3 w-fit mx-auto shadow-[4px_4px_0px_rgba(0,0,0,1)]">
+            <h3 className="font-bold text-sm uppercase tracking-wider">Priority Legend:</h3>
+            
+            <div className="flex items-center gap-2">
+                <span className="w-4 h-4 rounded-full bg-red-400 border-2 border-black block shadow-[2px_2px_0px_rgba(0,0,0,1)]"></span>
+                <span className="text-xs font-bold">High</span>
+            </div>
+            
+            <div className="flex items-center gap-2">
+                <span className="w-4 h-4 rounded-full bg-yellow-400 border-2 border-black block shadow-[2px_2px_0px_rgba(0,0,0,1)]"></span>
+                <span className="text-xs font-bold">Medium</span>
+            </div>
+            
+            <div className="flex items-center gap-2">
+                <span className="w-4 h-4 rounded-full bg-green-400 border-2 border-black block shadow-[2px_2px_0px_rgba(0,0,0,1)]"></span>
+                <span className="text-xs font-bold">Low</span>
+            </div>
+        </div>        
         {/* 3. Changed to a 3-column grid for the Kanban board */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
           
