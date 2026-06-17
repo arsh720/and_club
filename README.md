@@ -1,4 +1,4 @@
-# 📌 Next.js Full-Stack Kanban Board
+# 📌 Student club task manager
 
 ## 📖 Project Overview
 A full-stack, interactive Kanban board built to streamline task management. This application allows users to create, track, and organize tasks across different stages of completion. It is designed with a strong emphasis on clean UI/UX paradigms, featuring interactive states, automatic visual priority mapping, and seamless backend database synchronization. 
